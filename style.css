@@ -4,8 +4,12 @@ body{
 h1{
     font-size: 50px;
 }
-section{
+.flex-container{
     display: flex;
+    
+}
+section{
+    margin-bottom: 80px;
 }
 .half-width{
     padding-left: 5%;
@@ -27,5 +31,13 @@ section{
 
 .user-name{
     color: orange;
+}
+
+.top-banner{
+    background-image: url(images/developer.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    
 }
 
